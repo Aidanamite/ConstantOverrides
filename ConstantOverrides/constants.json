@@ -1,0 +1,820 @@
+{
+  "kMaxGameSlots": 4,
+  "kSavedGamePrefix": "Savefile",
+  "kSavedGameSuffix": ".sav",
+
+  "kTweenparam_Time": "time",
+  "kTweenparam_IsLocal": "islocal",
+  "kTweenparam_PosX": "x",
+  "kTweenparam_PosY": "y",
+  "kTweenparam_OnComplete_Target": "oncompletetarget",
+  "kTweenparam_OnComplete_Callback": "oncomplete",
+  "kTweenparam_OnComplete_params": "oncompleteparams",
+  "kTweenparam_EaseType": "easetype",
+
+  "kBaseHealth": 100,
+  "kMaxHealth": 100,
+  "kMinHealth": 0,
+  "kBaseSpeed": 185,
+  "kMaxSpeed": 250,
+  "kMinSpeed": 80,
+  "kBaseIntelligence": 20,
+  "kMaxIntelligence": 100,
+  "kMinIntelligence": 10,
+  "kBaseStrength": 5,
+  "kMaxStrength": 9999999,
+  "kMinStrength": 5,
+  "kBaseDefense": 10,
+  "kMaxDefense": 50,
+  "kMinDefense": 10,
+  "kMaxkarma": 1,
+  "kInitKarma": 0,
+  "kMinkarma": -1,
+  "kMaxGold": 999999999,
+  "kInitGold": 200,
+  "kMinGold": 0,
+  "kMaxSlimeCoins": 999999999,
+  "kInitSlimeCoins": 0,
+  "kMinSlimeCoins": 0,
+  "kBaseAbsorption": 0,
+  "kMaxAbsorption": 0,
+  "kMinAbsorption": 0,
+  "kBaseShield": 0,
+  "kMaxShield": 4,
+  "kMinShield": 0,
+
+  "goldBagSpriteRanges": [ 4000, 16000, 64000, 256000, 512000, 1024000 ],
+  "bagSize": 20,
+  "pocketSize": 5,
+  "WeaponPushForce": 900,
+
+  "willShopModeSpeedFactor": 0.7,
+  "willDungeonModeSpeedFactor": 1.0,
+
+  "defaultGameTimeScale": 1.0,
+
+  "isVibrationAllowed": true,
+
+  "lowerDeadZone": 0.4,
+
+  "upperDeadZone": 1.0,
+
+  "screenShakeShortSwordStrength": 0.75,
+  "screenShakeLastHitShortSwordStrength": 3.0,
+  "screenShakeMainAttackShortSwordDuration": 0.075,
+  "screenShakeSecondaryAttackShortSwordDuration": 0.1,
+
+  "screenShakeBigSwordStrength": 1.5,
+  "screenShakeLastHitBigSwordStrength": 4.5,
+  "screenShakeMainAttackBigSwordDuration": 0.075,
+  "screenShakeSecondaryAttackBigSwordDuration": 0.1,
+
+  "screenShakeSpearStrength": 0.75,
+  "screenShakeLastHitSpearStrength": 3.0,
+  "screenShakeMainAttackSpearDuration": 0.075,
+  "screenShakeSecondaryAttackSpearDuration": 0.1,
+
+  "screenShakeBowStrength": 0.75,
+  "screenShakeLastHitBowStrength": 3.0,
+  "screenShakeMainAttackBowDuration": 0.075,
+  "screenShakeSecondaryAttackBowDuration": 0.1,
+
+  "screenShakeGlovesStrength": 0.75,
+  "screenShakeLastHitGlovesStrength": 3.0,
+  "screenShakeMainAttackGlovesDuration": 0.075,
+  "screenShakeSecondaryAttackGlovesDuration": 0.1,
+
+
+  "enemyDefaultAttackScreenShakeValue": 2.0,
+  "enemyDefaultAttackScreenShakeDuration": 0.15,
+  "enemyDefaultStrongtAttackScreenShakeValue": 3.0,
+  "enemyDefaultStrongAttackScreenShakeDuration": 0.5,
+  "enemyDefaultWeakAttackScreenShakeValue": 1.0,
+  "enemyDefaultWeakAttackScreenShakeDuration": 0.15,
+  "enemyDefaultScreenShakeVibration": 50,
+
+  "golemHeadCrashScreenShakeValue": 3.0,
+  "golemHeadCrashScreenShakeTime": 0.5,
+
+  "golemKingRockShakeForce": 3.0,
+  "golemKingRockShakeTime": 0.5,
+  "golemKingPunchShakeTime": 0.5,
+  "golemKingAttacksShakeVibration": 50,
+  "carnivorousMutaeAttacksShakeVibration": 50,
+  "najaAttacksShakeVibration": 50,
+  "fluxAttacksShakeVibration": 50,
+  "wandererShakeForce": 2.0,
+  "wandererShakeTime": 0.15,
+
+  "damagedScreenShakeDuration": 0.2,
+  "damagedScreenShakeForce": 2.0,
+
+  "damagedEffectTimeScale": 0.1,
+  "damagedEffectTimeScaleDuration": 0.25,
+  "damagedEffectTimeScaleDelay": 0.05,
+
+  "enemyDamagedRedTime": 0.02,
+  "enemyDamagedWhiteTime": 0.05,
+  "willDamagedRedTime": 0.08,
+  "willDamagedWhiteTime": 0.08,
+  "willInvincibleBlinkDuration": 0.1,
+
+
+  "hitToEnemyEffectTimeScale": 0.0,
+  "hitToEnemyEffectDuration": 0.05,
+
+  "secondaryAttackHitToEnemyEffectTimeScale": 0.1,
+  "secondaryAttackHitToEnemyEffectDuration": 0.3,
+
+  "enemyKilledEffectTimeScale": 0.0,
+  "killedEnemyEffectDuration": 0.05,
+
+
+  "bossKilledEffectTimeScale": 0, //0.2,
+  "bossKilledEffectDuration": 0, //2.5,
+
+
+  "ConfusedEffectProb": 0.5,
+  "VenomEffectProb": 0.5,
+  "BurnedEffectProb": 0.5,
+  "ElectifiedEffectProb": 0.5,
+
+  "enemyAnimatorDefaultSpeed": 1.0,
+  "enemyAnimatorDamagedSpeed": 0.5,
+
+  "suffocatedDamage": 1.0,
+  "willFallDamage": 0.05,
+  "grabItemsOnFallPercent": 0.7,
+  "timeToShowTooltip": 0.3,
+
+  "attackTickTime": 0.95, //0.75
+
+  "shortSwordMainAttackVibrationIntensity": 0.2,
+  "shortSwordSecondaryAttackVibrationIntensity": 0.4,
+  "bigSwordAttackVibrationIntensity": 0.4,
+  "glovesMainAttackVibrationIntensity": 0.2,
+  "glovesSecondaryAttackVibrationIntensity": 0.4,
+  "spearMainAttackVibrationIntensity": 0.2,
+  "spearSecondaryAttackVibrationIntensity": 0.2,
+  "spearSecondaryAttackRunVibrationIntensity": 0.4,
+  "bowMainAttackVibrationIntensity": 0.1,
+  "bowSecondaryAttackVibrationIntensity": 0.4,
+
+  "usePendantVibrationIntensity": 0.1, //0.2
+  "usePendantVibrationDuration": 0.1, //0.15
+
+  "shieldhitVibrationIntensity": 0.1,
+  "attackHitVibrationDuration": 0.1,
+
+  "wandererAttackVibrationIntensity": 0.4,
+  "wandererAttackVibrationDuration": 0.1,
+
+  "wandererAppearVibrationIntensity": 1.0,
+  "wandererAppearVibrationDuration": 0.4,
+
+  "fallingFloorStartIntesity": 0.2,
+  "fallingFloorStartDuration": 0.1,
+
+  "golemKingAppearVibrationIntensity": 0.6,
+  "golemKingAppearVibrationDuration": 1.6,
+  "carnivorousMutaeAppearVibrationIntensity": 0.6,
+  "carnivorousMutaeAppearVibrationDuration": 2.0,
+  "najaAppearVibrationIntensity": 0.6,
+  "najaAppearVibrationDuration": 2.5,
+  "fluxAppearVibrationIntensity": 0.6,
+  "fluxAppearVibrationDuration": 2.0,
+  "gizmoAppearVibrationIntensity": 0.6,
+  "gizmoAppearVibrationDuration": 2.0,
+
+  "carnivorousMutaeAppearHitVibrationIntensity": 1.0,
+  "carnivorousMutaeAppearHitVibrationDuration": 0.1,
+
+  "fluxAppearRayVibrationIntensity": 0.6,
+  "fluxAppearRayVibrationDuration": 0.3,
+
+  "golemKingDeathVibrationIntensity": 0.8,
+  "golemKingDeathVibrationDuration": 2.8,
+  "carnivorousMutaeDeathVibrationIntensity": 0.8,
+  "carnivorousMutaeDeathVibrationDuration": 3.0,
+  "najaDeathVibrationIntensity": 0.8,
+  "najaDeathVibrationDuration": 4.0,
+  "fluxDeathVibrationIntensity": 0.8,
+  //"fluxDeathVibrationDuration": 6.0,
+  "gizmoDeathVibrationIntensity": 0.8,
+  "gizmoDeathVibrationDuration": 3.0,
+  "gizmoPhase2DeathVibrationIntensity": 0.8,
+  "gizmoPhase2DeathVibrationDuration": 3.0,
+  "machineExplosionVibrationIntensity": 0.8,
+
+  "fluxDeathHitVibrationIntensity": 0.8,
+  "fluxDeathHitVibrationDuration": 0.2,
+
+  "golemKingDeathHitVibrationIntensity": 1.0,
+  "golemKingDeathHitVibrationDuration": 0.3,
+  "najaDeathHitVibrationIntensity": 1.0,
+  "najaDeathHitVibrationDuration": 0.3,
+
+  "golemKingAttackVibrationIntensity": 0.6,
+  "golemKingAttackVibrationDuration": 0.2,
+  "carnivorousMutaeAttackVibrationIntensity": 0.6,
+  "carnivorousMutaeAttackVibrationDuration": 0.2,
+  "najaAttackVibrationIntensity": 0.6,
+  "najaAttackVibrationDuration": 0.2,
+  "fluxAttackVibrationIntensity": 0.6,
+  "fluxAttackVibrationDuration": 0.2,
+  "fluxWeakAttackVibrationIntensity": 0.2,
+  "fluxWeakAttackVibrationDuration": 0.2,
+  "gizmoAttackVibrationIntensity": 0.6,
+  "gizmoAttackVibrationDuration": 0.2,
+
+  "woodenMimicAttackVibrationIntensity": 0.6,
+  "woodenMimicAttackVibrationDuration": 0.2,
+  "ironMimicAttackVibrationIntensity": 0.6,
+  "ironMimicAttackVibrationDuration": 0.2,
+  "goldenMimicAttackVibrationIntensity": 0.6,
+  "goldenMimicAttackVibrationDuration": 0.2,
+
+  "defaultEnemyVibrationIntensity": 0.2,
+  "defaultEnemyVibrationDuration": 0.1,
+  "defaultStrongEnemyVibrationIntensity": 0.4,
+  "defaultStrongEnemyVibrationDuration": 0.1,
+  "defaultEnemyWeakVibrationIntensity": 0.1,
+  "defaultEnemyWeakVibrationDuration": 0.1,
+
+  //Minibosses vibration ans shake values
+  "golemWarriorAttacksVibrationIntensity": 0.5,
+  "golemWarriorAttacksVibrationDuration": 0.1,
+
+  "fruitTreeRootAttacksVibrationIntensity": 0.5,
+  "fruitTreeRootAttacksVibrationDuration": 0.1,
+  "fruitShakeAttackVibrationIntensity": 0.15,
+  "fruitShakeAttackVibrationDuration": 0.9,
+
+  "hexaFireShotAttackVibrationIntensity": 0.5,
+  "hexaFireShootAttackVibrationDuration": 0.1,
+  "hexaBeamAttackVibrationIntensity": 0.25,
+  "hexaBeamAttackVibrationDuration": 0.1,
+
+  "oscilatorWaveAttacksVibrationIntensity": 0.2,
+  "oscilatorWaveAttacksVibrationDuration": 0.1,
+  "oscilatorBeamAttacksVibrationIntensity": 0.3,
+  "oscilatorBeamAttacksVibrationDuration": 2.0,
+  //End of Minibosses vibration values
+
+  "doorClosingVibrationIntensity": 0.3,
+  "doorClosingVibrationDuration": 0.1,
+
+  "secondaryAttackChargeWeakVibrationIntensity": 0.1,
+  "secondaryAttackChargeStrongVibrationIntensity": 0.5,
+
+  "abilityUsedVibrationIntensity": 0.2,
+  "abilityUsedVibrationDuration": 0.1,
+
+  "willDamagedVibrationIntensity": 0.3,
+  "willDamagedVibrationDuration": 0.1,
+
+  "willDeathVibrationIntensity": 0.3,
+  "willDeathVibrationDuration": 0.1,
+
+  "cashRegisterSaleVibrationIntensity": 0.3,
+  "cashRegisterSaleVibrationDuration": 0.1,
+
+  "chestWeakUnlockVibrationIntensity": 0.2,
+  "chestWeakUnlockVibrationVibration": 0.1,
+
+  "chestStrongUnlockVibrationIntensity": 0.6,
+  "chestStrongUnlockVibrationVibration": 0.1,
+
+  "actionVibrationIntesity": 0.2,
+  "actionVibrationDuration": 0.1,
+
+  "dungeonEntranceAbsorbVibrationIntensity": 0.5,
+  "dungeonEntranceAbsorbVibrationDuration": 0.5,
+  "dungeonEntranceOpenVibrationIntensity": 0.4,
+  "dungeonEntranceOpenVibrationDuration": 0.3,
+
+  "deadEnemyPushForce": 60,
+  "shortSwordAttackToAttackNormalizedTimeWindow": 0.55,
+  "bigSwordAttackToAttackNormalizedTimeWindow": 0.55,
+  "spearAttackToAttackNormalizedTimeWindow": 0.65,
+  "glovesAttackToAttackNormalizedTimeWindow": 0.55,
+  "bowAttackToAttackNormalizedTimeWindow": 0.55,
+  "attackToRollNormalizedTimeWindow": 0.55,
+  "mainAttackToSecondaryAttackNormalizedTimeWindow": 0.55,
+  "mainAttackToTrickAbilityNormalizedTimeWindow": 0.3,
+  "trickAbilityToMainAttackNormalizedTimeWindow": 0.3,
+  "rollToTrickAbilityNormalizedTimeWindow": 0.55,
+  "trickAbilityToRollNormalizedTimeWindow": 0.55,
+
+
+  "moveTimeWhileAttacking": 0.35,
+  "knockbackTimeWithBow": 0.05,
+
+  "numberOfShieldHitsToDropShield": 2,
+  "timeBetweenShieldHitsToReset": 2.0,
+
+  "skeletonNotesProbability": 0.5,
+  "maxSkeletonsInFloor": 2,
+  "roomSkeletonProbability": 0.15,
+  "maxTimesbreakableObjectHitDropped": 1,
+  //                             Merchant, Golem, Forest, Desert, Tesla, Uknown
+  "breakableObjectDropItemProbability": 0.14,
+  "breakableObjectsDrop": [
+    [ "Coin" ],
+    [ "Iron Bar", "Water Sphere", "Golem Core", "Crystal Rock", "Glass Lenses", "Crystalized Energy", "Water Lamp", "Broken Sword", "Fabric", "Golem Volume", "Golem Chisel", "Foundry Rests", "Hardened Steel", "White Stone" ],
+    [ "Magic Mushroom", "Venomous Spores", "Plant Flesh", "Magic Wood", "Light Essence", "Life Fluid", "Strong Leaves", "Blade Leaves", "Pure Acid", "Petals", "Ancient Wood", "Straw", "Fertile Soil", "Nutritive Water", "Modified Seeds", "Fluid Vessel", "Fertilizer", "Preserved Root" ],
+    [ "Volcanic Stone", "Diamagnetic Sand", "Flamable Dust", "Insulating Dust", "Magnetite", "Desert Steel Sheet", "Desert Rope", "Fireproof Cloth", "Magnetic Core", "Fire Gem", "Fluid Conduct", "Colded Lava", "Resistant Glass", "Cloth Dye", "Desert Stone", "Inflamable Liquid" ],
+    [ "Gold Strands", "Crystal Shards", "Mercury", "Wires", "Welding rods", "Conductor Metal", "Energy Capacitor", "Plastic Film", "Tesla Coil Engine", "Broken Battery", "Treated Wood", "Tungsten Reel", "Copper Reel", "Wolfram Rock", "Vacuum tube" ],
+    [ "Hyper Potion" ],
+    [ "HP Potion I" ]
+  ],
+  "breakableObjectsDropProbabilities": [
+    [ 1.0 ],
+    [ 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.02, 0.06, 0.06, 0.06 ],
+    [ 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06 ],
+    [ 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06 ],
+    [ 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06 ],
+    [ 1.0 ],
+    [ 1.0 ]
+  ],
+  "breakableWandererEachTwoFloors": [
+    "HP Potion V",    // 1 - 2
+    "HP Potion VI",   // 3 - 4
+    "HP Potion VII",  // 5 - 6
+    "HP Potion VIII", // 7 - 8
+    "HP Potion VIII"  // 9 - 10
+  ],
+
+  "skeletonBreakableGoldPercent": 0.5,
+  "skeletonBreakableObjectDropItemProbability": 0.9,
+  "skeletonBreakableObjectsDrop": [
+    [ "Coin" ],
+    [ "HP Potion I", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip" ],
+    [ "HP Potion II", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip", "Rusty Sword", "Soldier Sword", "Buster Big Sword", "Rock Big Sword", "Fighter Gloves", "Rough Gloves", "Hunter Bow", "Catapult Bow", "Warrior Spear", "Golem Drill Spear" ],
+    [ "HP Potion III", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip", "Venom Sword", "Knight Sword", "Toxig Big Sword", "Wild Big  Sword", "Forest Gloves", "Venom Twins Gloves", "Natural Bow", "Poison Bow", "Wood's Spear", "Venom Sting Spear" ],
+    [ "HP Potion IV", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip", "Commander Sword", "Reborn Sword", "Blaze Big Sword", "Vulcan Big  Sword", "Captain Gloves", "Flame Twins Gloves", "Soldier Bow", "Flamethrower Bow", "Monkey Spear", "Hell Spear" ],
+    [ "Hyper Potion", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip" ],
+    [ "HP Potion I", "Training Sword", "Training Bow", "Training Gloves", "Training Big Sword", "Training Spear", "Broken club nightstick", "Broken crossbow", "Broken dagger", "Broken katana", "Broken mace", "Broken morningstar", "Broken rapier", "Broken sling", "Broken whip" ]
+  ],
+  "skeletonBreakableObjectsDropProbabilities": [
+    [ 1.0 ],
+    [ 0.4, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0, 0.0, 0.0, 0.0215, 0.0, 0.0, 0.0215, 0.0 ],
+    [ 0.4, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0, 0.0, 0.0, 0.0215, 0.0, 0.0, 0.0215, 0.0, 0.0, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215 ],
+    [ 0.4, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0, 0.0215, 0.0, 0.0, 0.0, 0.0215, 0.0, 0.0, 0.0, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215 ],
+    [ 0.4, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0, 0.0, 0.0215, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215 ],
+    [ 0.4, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215, 0.0215 ]
+  ],
+
+  "wandererNestRoomItems": [ "Coin", "Golem History I", "Forest History I", "Desert History I", "Tech History I", "Coin", "Coin" ],
+
+  "abandonedItemsRoomItems": [
+    [ "Coin" ],
+    [ "Iron Bar", "Water Sphere", "Golem Core", "Crystal Rock", "Glass Lenses", "Crystalized Energy", "Water Lamp", "Broken Sword", "Fabric", "Golem Volume", "Golem Chisel", "Foundry Rests", "Hardened Steel", "White Stone", "Rune Tool" ],
+    [ "Magic Mushroom", "Venomous Spores", "Plant Flesh", "Magic Wood", "Light Essence", "Life Fluid", "Strong Leaves", "Blade Leaves", "Pure Acid", "Petals", "Ancient Wood", "Straw", "Fertile Soil", "Nutritive Water", "Modified Seeds", "Fluid Vessel", "Fertilizer", "Preserved Root" ],
+    [ "Volcanic Stone", "Diamagnetic Sand", "Flamable Dust", "Insulating Dust", "Magnetite", "Desert Steel Sheet", "Desert Rope", "Fireproof Cloth", "Magnetic Core", "Fire Gem", "Fluid Conduct", "Colded Lava", "Resistant Glass", "Cloth Dye", "Desert Stone", "Inflamable Liquid" ],
+    [ "Gold Strands", "Crystal Shards", "Mercury", "Wires", "Welding Rods", "Conductor Metal", "Energy Capacitor", "Plastic Film", "Tesla Coil Engine", "Broken Battery", "Treated Wood", "Tungsten Reel", "Copper Reel", "Wolfram Rock", "Vacuum Tube" ],
+    [ "Hyper Potion" ],
+    [ "HP Potion I" ]
+  ],
+  "buttonPressedVibrationIntensity": 0.2,
+  "buttonPressedVibrationDuration": 0.15,
+
+  "merchantColliderXOffset": 1.0,
+  "merchantColliderYOffset": -3.5,
+  //                             Merchant , Golem , Forest, Desert, Tesla, Uknown, Developer, Wanderer
+  "merchantPendantNeededMoney": [ 200     , 200   , 800   , 3200  , 12800, 12800 , 0        , 12800],
+  "merchantEmblemNeededMoney":  [ 1000    , 1000  , 4000  , 12000 , 40000, 40000 ],
+  "pendantIncrementPerLevel": 0.5,
+  "pendantIncrementPerLevelForWanderer": 0.15,
+  "emblemIncrementPerLevel": 0.5,
+
+  "minMirrorPercentage": 0.25,
+  "maxMirrorPercentage": 0.35,
+
+  "minMirrorTotalGold": 1,
+
+  "floorLevelingValue": 0.7, //0.5
+  "floorLevelingValueForWanderer": 0.7, //0.5
+  "floorLevelingStrengthPowForWanderer": 1.0,//0.8
+  "floorLevelingValueAtNight": 0.7,
+  "difficultyMod": [ 1.0, 1.25, 2.0 ],
+
+  "CrazyPeteRoomProbability": 1.0, //0.5
+  "DungeonSpecialRoomProbability": 0.6, //0.5
+  "DesertHardEnemiesRoomProbability": 1, //0.5,
+  "SecretRoomAdvisorDuration": 1.3,
+  //                      Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+  "HealingPoolCapacity": [ 0      , 100  , 250   , 450   , 800  , 1000   , 1000     , 1500],
+
+  "wandererTimeToAppear": 360,
+  "wandererFeedbackTimeToAppear": 15,
+  "wandererTimeToMoveRoom": 2.5,
+
+  "minChestsFloor1": 2,
+  "maxChestsFloor1": 3,
+  "minChestsFloor2": 3,
+  "maxChestsFloor2": 4,
+  "minChestsFloor3": 4,
+  "maxChestsFloor3": 5,
+
+  "minTimedChestsPerFloor": 0,
+  "maxTimedChestsPerFloor": 1,
+
+  "roomsInFloor1": 10,
+  "roomsInFloor2": 12,
+  "roomsInFloor3": 14,
+
+  "tileSize": 24,
+  "ChestsIDs": [ "WoodChest", "IronChest", "GoldChest", "MagicChest" ],
+  "ChestsIDs_WavesRoom": [ "WoodChest_WavesRoom", "IronChest_WavesRoom", "GoldChest_WavesRoom", "MagicChest_WavesRoom" ],
+  "mimicChestProbabilities": [ 0.07, 0.07, 0.07, 0.0 ],
+
+  "BossRoomChest1Time": 30.0,
+  "BossRoomChest2Time": 60.0,
+  "BossRoomChest3Time": 90.0,
+  "BossRoomChestDropIncrement": 2,
+
+  "firstFloorChestProbabilities": [ 0.9, 0.1, 0.0, 0.0 ], //[ 0.95, 0.05, 0.0, 0.0 ],
+  "secondFloorChestProbabilities": [ 0.0, 0.9, 0.1, 0.0 ], //[ 0.3, 0.7, 0.0, 0.0 ],
+  "thirdFloorChestProbabilities": [ 0.0, 0.05, 0.85, 0.1 ], //[ 0.0, 0.7, 0.2, 0.1 ],
+
+  "firstFloorChestProbabilitiesAtNight": [ 0.9, 0.1, 0.0, 0.0 ],
+  "secondFloorChestProbabilitiesAtNight": [ 0.0, 0.9, 0.1, 0.0 ],
+  "thirdFloorChestProbabilitiesAtNight": [ 0.0, 0.05, 0.85, 0.1 ],
+
+  //Tier1, Tier2, Tier3, Tier4, Tier5
+  "woodChestTierProbabilities": [ 0.0, 0.1, 0.9, 0.0, 0.0 ],
+  "ironChestTierProbabilities": [ 0.0, 0.7, 0.3, 0.0, 0.0 ],
+  "goldChestTierProbabilities": [ 0.8, 0.2, 0.0, 0.0, 0.0 ],
+  "magicChestTierProbabilities": [ 0.56, 0.34, 0.1, 0.0, 0.0 ],
+
+  //Wood, Iron, Gold, Blue, Magic
+  "maxNumberOfDifferentItemsPerChest": [ 2, 3, 5, 28, 8 ],
+  "maxItemStackPerChest": [ 3, 3, 3, 10, 5 ],
+
+  "woodChestGoodEffectProbabilities": 0.0,
+  "ironChestGoodEffectProbabilities": 0.0,
+  "goldChestGoodEffectProbabilities": 0.0,
+  "magicChestGoodEffectProbabilities": 0.3,
+
+  "itemEffectGenerationPobability": 0.5,
+
+  "woodChestItemEffectProbabilities": [ 1.0, 0.0, 0.0, 0.0, 0.0 ],
+  "ironChestItemEffectProbabilities": [ 0.1, 0.3, 0.6, 0.0, 0.0 ],
+  "goldChestItemEffectProbabilities": [ 0.0, 0.1, 0.3, 0.4, 0.1 ],
+  "magicChestItemEffectProbabilities": [ 0.0, 0.0, 0.2, 0.3, 0.5 ],
+
+  "bossSpeedIncreaseLimit": 0.75,
+  "bossHealthPercentToApplySpeedIncrease": 0.5,
+
+  "championProb": 0.7,
+  "championDroppedItems": 1,
+  "championDroppedItemsProb": 0.55,
+  "championDroppedItemName": "Empowering Crystal",
+  "championHealthPercent": 0.5,
+  "championStrengthPercent": 0.2,
+  "championProbAtNight": 0.7,
+  "championDroppedItemsAtNight": 1,
+  "championDroppedItemsProbAtNight": 0.65,
+
+  "inventorySlotSelectPunchValue": 1.25,
+  "inventorySlotPressPunchValue": 0.75,
+  "inventorySlotWrongPunchValue": 3,
+  "rivalGoldModifier": 4.5,
+  "witchAfternoonGoldModifier": 0.95,
+
+  "cheapPriceLimit": 0.9,
+  "expensivePriceLimit": 1.1,
+  "tooExpensivePriceLimit": 2.00,
+  "overpricedExpensivePriceIncrement": 0.05,
+  "highBudgetExpensivePriceIncrement": 0.15,
+  "lowPopularityPerfectPriceDecrement": 0.25,
+  "highPopularityPerfectPriceIncrement": 0.25,
+
+  "timePerShopLvl": [ 2.5, 3, 3, 3, 4 ],
+  "maxNumberOfVisitorsPerShop": [ 3, 5, 5, 6, 8 ], //Plus 2 slots more for overcapacity customers
+  "maxNumberOfThiefsPerShop": [ 0, 1, 1, 1, 2 ],
+  "minCooldownBetweenVisitors": 3.0,
+  "maxCooldownBetweenVisitors": 8.0,
+  "thiefProbPerShop": [ 0, 0.1, 0.1, 0.1, 0.1 ],
+  "thiefProbIncrement": 0.01,
+  "maxThiefProbPerShop": [ 0, 0.2, 0.3, 0.4, 0.4 ],
+  "richProbDecrement": 0.1,
+  "minRichProbPerShop": [ 0, 0.1, 0.1, 0.15, 0.2 ],
+
+  "popularityTagColor": [
+    {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    {
+      "r": 0.87,
+      "g": 0.82,
+      "b": 0.45,
+      "a": 1.0
+    }
+  ],
+  
+  "cyclesToResetPopularity": 1,
+  "cyclesToHighPopularityFromNormal": 8,
+  "cyclesToResetAcumulatedUnitSales": 2,
+  "numberOfUnitSalesToNormalPopularityFromHigh": 5,
+  "numberOfUnitSalesToLowPopularity": 10,
+
+  "ingredientsDiscoveredToUnlock": 1,
+  "maxWeaponEnchantmentLevel": 3,
+  "maxEnchantmentLevel": 1,
+
+  "maxActiveQuests": 3,
+  "maxQuestProposalsPerShopLvl": [ 0, 0, 2, 4, 6 ],
+  "maxNumberOfDeathsPerShopLvl": [ 5, 10, 20, 30, 40 ],
+  "minQuestProbability": 0.2,
+  "maxQuestProbability": 0.9,
+  "minQuestTime": 0.1,
+  "maxQuestTime": 0.7,
+
+  "transparent": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 0
+  },
+  "greenMoonlighter": {
+    "r": 0.078,
+    "g": 0.62,
+    "b": 0.44,
+    "a": 1.0
+  },
+
+  "timeToShowHalfBookName": 1.0,
+
+  "timeToShowForbiddenBagInfo": 4.0,
+  "timeToShowFullBagInfo": 2.0,
+
+  "treeDropItemProbability": 0.1,
+  "maxTimesTreeHitDropped": 1,
+
+  "itemStackMoveAwayForce": 12,
+  "itemStackMoveAwayRadius": 18,
+  "itemMoveToWillForce": 48,
+
+
+  "roomTileCountX": 20,
+  "roomTileCountY": 11,
+
+  "lowHealthPercentage": 0.15,
+
+  "quickConsumeFirstDelay": 0.25,
+  "quickConsumeItemDelay": 0.5,
+  "quickConsumeUsePendantDelay": 1.5,
+  "pendantShortcutAlarmTime": 15.0, //6.0
+  "itemsToShowPendant": 15,
+
+  "visitorLeavePenalty": 0.5,
+
+  "bedAbsorptionPerLevel": [ 0, 50, 100, 250 ],
+  "bedShieldsPerLevel": [ 0, 0, 1, 3 ],
+
+  "bedChestSizePerLevel": [ 28, 56, 84, 112 ],
+
+  "salesboxPricePercentPerLevel": [ 0.0, 0.75, 0.60, 0.50 ],
+  "cashMachinePercentPerLevel": [ 0.0, 0.1, 0.2, 0.4 ],
+
+  "townboardBlacksmithUnlockCost": 500, //Unlocked when returning from the dungeon the first time
+  "townboardWitchUnlockCost": 500, //Unlocked when returning from the dungeon the first time
+  "townboardRivalUnlockCost": 5500, //Unlocked from reaching second floor in the golem dungeon
+  "townboardHawkerUnlockCost": 20000, //Unlocked when buying second shop level (when it has already being changed)
+  "townboardBankerUnlockCost": 70000, //Unlocked when beating Forest boss (reaching dungeon 3)
+
+  "townboardShowUpgradeCost": [ 8000, 60000, 120000, 250000 ],
+  "townboardSalesBoxUpgradeCost": [ 2000, 20000, 70000 ],
+  "townboardBedUpgradeCost": [ 4000, 20000, 70000 ],
+  "townboardBedChestUpgradeCost": [ 4000, 20000, 70000 ],
+  "townboardCashMachineUpgradeCost": [ 4000, 20000, 70000 ],
+
+  "shopHelperSellPercentage": 0.3,
+  "shopHelperGuardCost": 20000,
+
+  "bankerVariance": 1.0,
+  "bankerMinimumInvestment": 1000,
+
+  //Shop variables
+
+  "thiefRegisterCashStealGoldPercentageMin": 0.05, // 5%
+  "thiefRegisterCashStealGoldPercentageMax": 0.08, // 8%
+
+  //New Game + variables
+  "ngpEnemiesHealthFactor": 22.17,
+  "ngpEnemiesStrengthFactor": 7.5,
+  "ngpEnemiesDefenseFactor": 1.0,
+  "ngpEnemiesSpeedFactor": 1.0,
+
+  "ngpWeaponsStrengthFactor": 20.07,
+  "ngpWeaponsDefenseFactor": 1.0,
+  "ngpWeaponsHealthFactor": 1.0,
+  "ngpWeaponsSpeedFactor": 1.0,
+  "ngpWeaponsRecipePriceFactor": 5.6,
+
+  "ngpWeaponsEnchantmentStrengthFactor": 20.07,
+  "ngpWeaponsEnchantmentDefenseFactor": 1.0,
+  "ngpWeaponsEnchantmentHealthFactor": 1.0,
+  "ngpWeaponsEnchantmentSpeedFactor": 1.0,
+  "ngpWeaponsEnchantmentPriceFactor": 5.6,
+
+  "ngpArmorsStrengthFactor": 1.0,
+  "ngpArmorsDefenseFactor": 1.0,
+  "ngpArmorsHealthFactor": 10.0,
+  "ngpArmorsSpeedFactor": 1.0,
+  "ngpArmorsRecipePriceFactor": 5.6,
+
+  "ngpArmorsEnchantmentStrengthFactor": 1.07,
+  "ngpArmorsEnchantmentDefenseFactor": 1.0,
+  "ngpArmorsEnchantmentHealthFactor": 10.0,
+  "ngpArmorsEnchantmentSpeedFactor": 1.0,
+  "ngpArmorsEnchantmentPriceFactor": 5.6,
+
+  "ngpPotionsHealFactor": 8.5,
+  "ngpHealingPoolFactor": 8.5,
+  "ngpPostDLCHealingPoolFactor": 8.5,
+
+  "ngpItemsValueFactor": 5.6,
+
+  // New Game + Post DLC variables
+  "ngpPostDLCEnemiesHealthFactor": 102.17,
+  "ngpPostDLCEnemiesStrengthFactor": 90.5,
+  "ngpPostDLCEnemiesDefenseFactor": 1.0,
+  "ngpPostDLCEnemiesSpeedFactor": 1.0,
+
+  "ngpPostDLCWeaponsStrengthFactor": 80.5,
+  "ngpPostDLCWeaponsDefenseFactor": 1.0,
+  "ngpPostDLCWeaponsHealthFactor": 1.0,
+  "ngpPostDLCWeaponsSpeedFactor": 1.0,
+  "ngpPostDLCWeaponsRecipePriceFactor": 5.6,
+
+  "ngpPostDLCWeaponsEnchantmentStrengthFactor": 80.5,
+  "ngpPostDLCWeaponsEnchantmentDefenseFactor": 1.0,
+  "ngpPostDLCWeaponsEnchantmentHealthFactor": 1.0,
+  "ngpPostDLCWeaponsEnchantmentSpeedFactor": 1.0,
+  "ngpPostDLCWeaponsEnchantmentPriceFactor": 5.6,
+
+  "ngpPostDLCArmorsStrengthFactor": 1.0,
+  "ngpPostDLCArmorsDefenseFactor": 1.0,
+  "ngpPostDLCArmorsHealthFactor": 102.17,
+  "ngpPostDLCArmorsSpeedFactor": 1.0,
+  "ngpPostDLCArmorsRecipePriceFactor": 5.6,
+
+  "ngpPostDLCArmorsEnchantmentStrengthFactor": 80.5,
+  "ngpPostDLCArmorsEnchantmentDefenseFactor": 1.0,
+  "ngpPostDLCArmorsEnchantmentHealthFactor": 95.0,
+  "ngpPostDLCArmorsEnchantmentSpeedFactor": 1.0,
+  "ngpPostDLCArmorsEnchantmentPriceFactor": 5.6,
+
+  "ngpPostDLCPotionsHealFactor": 202.17,
+  "ngpPostDLCHealingpPostDLCoolFactor": 102.17,
+
+  "ngpPostDLCItemsValueFactor": 5.6,
+
+  // DLC + variables
+  "dlcpWandererEnemiesHealthMultiplier": 192.17,
+  "dlcpWandererEnemiesStrengthMultiplier": 80.5,
+
+  //End of NG+ variables
+
+  "developerEnabled": false,
+
+  "demoModeEnabled": false,
+
+  //Amulet variables
+  "amuletProbabilityInPinkChest": 0.2,
+  "maxAmuletsGeneratedPerDungeon": 2,
+
+  //Potions
+  "HPPotionI": 40.0,
+  "HPPotionII": 75.0,
+  "HPPotionIII": 200.0,
+  "HPPotionIV": 500.0,
+  "HPPotionV": 750.0,
+  "HPPotionVI": 1500.0,
+  "HPPotionVII": 2500.0,
+  "HPPotionVIII": 4500.0,
+
+  //Familiars
+  "familiarRequiredKills": 10,
+  "familiarRequiredSlimeKills": 35,
+  "familiarRequiredMimicKills": 15,
+  "familiarHatchingDays": 3,
+
+  "enemyAutoScaleHealth":
+  [
+    //Row => Dungeon culture
+    //Column => Enemy culture
+    //
+    //            Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+    /*Merchant */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Golem    */ [1.0    , 1.0  , 0.35  , 0.12  , 0.07   , 1.0    , 1.0      , 0.03   ],
+    /*Forest   */ [1.0    , 2.85 , 1.0   , 0.33  , 0.2    , 1.0    , 1.0      , 0.06    ],
+    /*Desert   */ [1.0    , 8.5  , 3.0   , 1.0   , 0.6    , 1.0    , 1.0      , 0.18    ],
+    /*Tesla    */ [1.0    , 14.2 , 5.0   , 1.66  , 1.0    , 1.0    , 1.0      , 0.34    ],
+    /*Unknown  */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Developer*/ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Wanderer */ [1.0    , 42.0 , 18.0  , 6.0   , 1.5    , 1.0    , 1.0      , 1.0    ]
+  ],
+
+
+    "enemyAutoScaleStrength":
+    [
+      //Row => Dungeon culture, Column => Enemy culture
+      //
+      //            Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+      /*Merchant */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+      /*Golem    */ [1.0    , 1.0  , 0.4   , 0.4   , 0.16 , 1.0    , 1.0      , 0.1    ],
+      /*Forest   */ [1.0    , 2.5  , 1.0   , 0.625 , 0.41 , 1.0    , 1.0      , 0.25   ],
+      /*Desert   */ [1.0    , 4.0  , 1.6   , 1.0   , 0.66 , 1.0    , 1.0      , 0.4    ],
+      /*Tesla    */ [1.0    , 6.0  , 2.4   , 1.5   , 1.0  , 1.0    , 1.0      , 0.6    ],
+      /*Unknown  */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+      /*Developer*/ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+      /*Wanderer */ [1.0    , 14.5 , 7.0   , 3.5   , 1.8  , 1.0    , 1.0      , 1.0    ]
+    ],
+
+  "ngpPostDLCEnemyAutoScaleHealth":
+  [
+    //Row => Dungeon culture, Column => Enemy culture
+    //
+    //            Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+    /*Merchant */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Golem    */ [1.0    , 1.0  , 0.35  , 0.12  , 0.07   , 1.0    , 1.0      , 0.013   ],
+    /*Forest   */ [1.0    , 2.85 , 1.0   , 0.33  , 0.2    , 1.0    , 1.0      , 0.04    ],
+    /*Desert   */ [1.0    , 8.5  , 3.0   , 1.0   , 0.6    , 1.0    , 1.0      , 0.11    ],
+    /*Tesla    */ [1.0    , 14.2 , 5.0   , 1.66  , 1.0    , 1.0    , 1.0      , 0.19    ],
+    /*Unknown  */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Developer*/ [1.0    , 1.0  , 1.0   , 1.0   , 1.0    , 1.0    , 1.0      , 1.0     ],
+    /*Wanderer */ [1.0    , 42.0 , 18.0  , 6.0   , 1.5    , 1.0    , 1.0      , 1.0    ]
+  ],
+
+
+  "ngpPostDLCEnemyAutoScaleStrength":
+  [
+    //Row => Dungeon culture, Column => Enemy culture
+    //
+    //            Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+    /*Merchant */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+    /*Golem    */ [1.0    , 1.0  , 0.4   , 0.4   , 0.16 , 1.0    , 1.0      , 0.1    ],
+    /*Forest   */ [1.0    , 2.5  , 1.0   , 0.625 , 0.41 , 1.0    , 1.0      , 0.25   ],
+    /*Desert   */ [1.0    , 4.0  , 1.6   , 1.0   , 0.66 , 1.0    , 1.0      , 0.4    ],
+    /*Tesla    */ [1.0    , 6.0  , 2.4   , 1.5   , 1.0  , 1.0    , 1.0      , 0.6    ],
+    /*Unknown  */ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+    /*Developer*/ [1.0    , 1.0  , 1.0   , 1.0   , 1.0  , 1.0    , 1.0      , 1.0    ],
+    /*Wanderer */ [1.0    , 9.0 , 5.5   , 2.8   , 1.2  , 1.0    , 1.0      , 1.0    ]
+  ],
+
+  "trickWeaponsAutoScaleStrength":
+  [
+    // Row =>     Intermediate level
+    // Column =>  Enemy culture
+    //
+    //                        Merchant, Golem, Forest, Desert, Tesla, Unknown, Developer, Wanderer
+    /*Intermediate level 1*/ [1.0    , 0.08  , 0.16    , 0.32    , 0.64  , 1.0    , 1.0      , 1.0    ],
+    /*Intermediate level 2*/ [1.0    , 0.1  , 0.24    , 0.48     , 0.80  , 1.0    , 1.0      , 1.0    ]
+  ],
+
+  //                              0,    ,1   ,2   ,3   ,4   ,5    ,6  ,7  ,8    ,9
+  "trickWeaponsPerLevelStrength": [1.0, 1.54, 1.54, 2.4, 2.4, 3.7, 3.7, 5.64, 5.64, 5.64],
+
+  //                                     Floor1, Floor2, Floor3, Floor4, Floor5, Floor6, Floor7, Floor8, Floor9, Floor10,
+  "wandererWoodChestFloorProbabilities":  [0.75   , 0.7   , 0.6   , 0.5   , 0.4   , 0.3   , 0.1   , 0.0   , 0.0   , 0.0    ],
+  "wandererIronChestFloorProbabilities":  [0.15   , 0.2   , 0.3   , 0.4   , 0.5   , 0.5   , 0.6   , 0.6   , 0.4   , 0.3    ],
+  "wandererGoldChestFloorProbabilities":  [0.1    , 0.1   , 0.1   , 0.1   , 0.1   , 0.2   , 0.3   , 0.3   , 0.4   , 0.4    ],
+  "wandererMagicChestFloorProbabilities": [0.0    , 0.0   , 0.0   , 0.0   , 0.0   , 0.0   , 0.0   , 0.1   , 0.2   , 0.3    ],
+
+  "wandererDroppedItemName": "Slime Drop",
+  "wandererDroppedItemProb": 0.75,
+  "wandererDroppedItemMin": 1,
+  "wandererDroppedItemMax": 1,
+  "wandererDroppedItemChampionMin": 1,
+  "wandererDroppedItemChampionMax": 2,
+  "wandererDroppedItemMinibossMin": 3,
+  "wandererDroppedItemMinibossMax": 5,
+  "wandererDroppedItemIncrementalFactor": 1.25,
+  "wandererWeaponsCostIncrementalFactorEachTwoFloors": 2.0,
+  "wandererHealingPoolIncrementalFactorPerFloor": 0.51,
+
+
+  "HaggleInitialClamp": 6,
+  "HaggleMinRandomClamp": -2,
+  "HaggleMaxRandomClamp": 2,
+  "NPCHaggleDaysToRestock": 3,
+  "HaggleNPCMinQuantity": 2,
+  "HaggleNPCMaxQuantity": 3,
+  "HaggleDaysToReactivate": 1,
+
+  "indecisiveTipPercentage": 0.1,
+  "slimeFamiliarEffectProb": 0.2
+}
